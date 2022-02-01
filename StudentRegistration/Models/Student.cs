@@ -15,7 +15,7 @@ namespace StudentRegistration.Models
         public int Age { get; set; }
         public override string ToString()
         {
-            return $"{FirstName} {SecondName} {Gender} {Age}";
+            return $"{Id} {FirstName} {SecondName} {Gender} {Age}";
         }
 
     }
